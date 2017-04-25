@@ -1,4 +1,7 @@
-# test coverage for  [suncalc (v1.8.0)](https://github.com/mourner/suncalc)  [![npm package](https://img.shields.io/npm/v/npmtest-suncalc.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-suncalc) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-suncalc.svg)](https://travis-ci.org/npmtest/node-npmtest-suncalc)
+# npmtest-suncalc
+
+#### basic test coverage for  [suncalc (v1.8.0)](https://github.com/mourner/suncalc)  [![npm package](https://img.shields.io/npm/v/npmtest-suncalc.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-suncalc) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-suncalc.svg)](https://travis-ci.org/npmtest/node-npmtest-suncalc)
+
 #### A tiny JavaScript library for calculating sun/moon positions and phases.
 
 [![NPM](https://nodei.co/npm/suncalc.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/suncalc)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-suncalc/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-suncalc/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-suncalc/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-suncalc/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-suncalc/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-suncalc/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-suncalc/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-suncalc/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-suncalc/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-suncalc/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-suncalc/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-suncalc/build/coverage.html/index.html)
 
@@ -97,7 +100,8 @@
         "pretest": "eslint suncalc.js test.js",
         "test": "tap test.js"
     },
-    "version": "1.8.0"
+    "version": "1.8.0",
+    "bin": {}
 }
 ```
 
